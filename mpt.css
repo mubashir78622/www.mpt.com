@@ -1,0 +1,526 @@
+#hadding{
+	width: 100%;height: 80px;padding-left: 30%;
+	background-color: lightgoldenrodyellow;
+	color: hotpink;
+}
+@media only screen and (max-width: 320px) {
+  #hadding{
+  	width: 100%;padding-left: 10%;font-size: 13px;
+  }
+  }
+
+#div1{
+	width: 100%;
+	height: 70px;
+	background-color: lightblue;
+	
+}
+@media only screen and (max-width: 320px) {
+  #div1{
+  	width: 100%;height: 250px;
+
+  }
+  }
+
+
+/*//Menu Making
+*/
+
+.navbar {
+  overflow: hidden;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+@media only screen and (max-width: 320px) {
+  .navbar{
+  	width: 350px;height: 250px;padding-left: 1px;
+
+  }
+  }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#div2{padding-top: 10px;
+	padding-left:10%; 
+	width: 100%;
+	height: 50px;
+	background-color: hotpink;
+}
+@media only screen and (max-width: 320px) {
+  #div2{
+  	width: 100%;height: 90px;padding-left: 30%;
+
+  }
+  }
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none;
+  margin-top: 10%;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 56px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+#div11{
+	width: 50%;margin-top: 5%;text-align: center;padding-top: 5px;
+	height: 100px;margin-left: 25%;border-radius: 20% 20%;color: orangered;
+	background-color: lightgreen;
+}
+@media only screen and (max-width: 320px) {
+  #div11{
+  	width: 60%;height: 100px;margin-top: 400px;
+
+  }
+  }
+
+#div12{
+	width: 100%;clear: left;
+	height: 300px;margin-top: 5%;
+}
+@media only screen and (max-width: 320px) {
+  #div12{
+  	width: 100%;margin-top: 50px;
+  	height: 700px;
+  }
+  }
+
+#div121{
+  width: 100%;clear: left;
+  height: 300px;margin-top: 5%;
+}
+@media only screen and (max-width: 320px) {
+  #div121{
+    width: 100%;margin-top: 50px;
+    height: 700px;
+  }
+  }
+
+
+#div13{background-image: url(0d0058ae-232b-4c2c-9668-92fbd4b9cfd3.jpg);
+	width: 30%;float: left;
+	height: 300px;margin-left: 2%;
+
+}
+@media only screen and (max-width: 768px) {
+  #div13{
+  	width: 30%;height: 300px;
+
+  }
+  }
+
+@media only screen and (max-width: 320px) {
+  #div13{
+  	width: 100%;height: 100px;margin-left: 0px;margin-top: 0px;
+
+  }
+  }
+
+
+
+  #img1{
+  	width: 100%;height: 300px;
+  }
+@media only screen and (max-width: 768px) {
+  #img1{
+  	width: 90%;height: 250px;
+
+  }
+  }
+  @media only screen and (max-width: 320px) {
+  #img1{
+  	width: 100%;height: 250px;
+
+  }
+  }
+  
+  
+  #img2{
+  	width: 100%;height: 300px;
+  }
+@media only screen and (max-width: 768px) {
+  #img2{
+  	width: 90%;height: 250px;
+
+  }
+  }
+  @media only screen and (max-width: 320px) {
+  #img2{
+  	width: 100%;height: 250px;
+
+  }
+  }
+  
+  #img3{
+  	width: 100%;height: 300px;
+  }
+@media only screen and (max-width: 768px) {
+  #img3{
+  	width: 100%;height: 200px;
+
+  }
+  }
+  
+  #img4{
+  	width: 70%;height: 350px;margin-left:9%;
+  }
+@media only screen and (max-width: 768px) {
+  #img4{
+  	width: 90%;height: 290px;
+
+  }
+  }
+  @media only screen and (max-width: 320px) {
+  #img4{
+  	width: 90%;height: 390px;
+
+  }
+  }
+  
+  
+  #img5{
+  	width: 100%;height: 300px;
+  }
+@media only screen and (max-width: 768px) {
+  #img5{
+  	width: 100%;height: 250px;margin-left: 9%;
+
+  }
+  }
+  @media only screen and (max-width: 320px) {
+  #img5{
+  	width: 100%;height: 300px;
+
+  }
+  }
+  
+  #img6{
+  	width: 100%;height: 300px;
+  }
+@media only screen and (max-width: 768px) {
+  #img6{
+  	width: 100%;height: 250px;margin-left: 9%;
+
+  }
+  }
+  @media only screen and (max-width: 320px) {
+  #img6{
+  	width: 100%;height: 300px;
+
+  }
+  }
+
+#div14{
+  width: 30%;
+  height: 300px;
+  float: left;margin-left: 2%;
+}
+@media only screen and (max-width: 768px) {
+  #div14{
+    width: 30%;height: 200px;margin-left:0px;
+
+  }
+  }
+
+@media only screen and (max-width: 320px) {
+  #div14{
+    width: 95%;height: 150px;margin-top: 170px;margin-left: -10px;
+
+  }
+  }
+
+#div18{
+  width: 30%;
+  height: 300px;
+  float: left;margin-left: 2%;
+}
+@media only screen and (max-width: 768px) {
+  #div18{
+    width: 30%;height: 200px;margin-left:0px;
+
+  }
+  }
+
+@media only screen and (max-width: 320px) {
+  #div18{
+    width: 95%;height: 150px;margin-top: 170px;margin-left: -10px;
+
+  }
+  }
+  #text{
+    width: 40%;margin-left: 20%;padding-left: 10%;padding-top: 1%;word-spacing: 15px;
+    height: 650px;margin-top: 5%;font-family: cursive;font-size: 20px;
+    color: black;
+  }
+
+@media only screen and (max-width: 320px) {
+  #text{
+    width: 100%;height: 450px;font-size: 20px;padding-left: 1%;margin-left: -2px;
+
+  }
+  }  
+#div15{
+	width: 30%;
+	height: 300px;
+		float: left;margin-left: 2%;
+}
+@media only screen and (max-width: 320px) {
+  #div15{
+  	width: 90%;height: 100px;
+  	margin-top: 120px;margin-left: 5px;
+  }
+  }
+#diva{
+  width: 30%;
+  height: 300px;
+    float: left;margin-left: 2%;
+}
+@media only screen and (max-width: 320px) {
+  #diva{
+    width: 90%;height: 100px;
+    margin-top: 160px;margin-left: 5px;
+  }
+  }
+#div16{
+	width: 25%;
+	height: 300px;
+		float: left;margin-left: 2%;
+}
+
+@media only screen and (max-width: 320px) {
+  #div16{
+  	width: 90%;height: 390px;
+
+  }
+  }
+  
+#div17{
+	width: 100%;
+	height: 1000px;
+	background-color: lightcoral;margin-top: 8%;
+	color: white;padding-left:;
+}
+
+@media only screen and (max-width: 320px) {
+  #div17{
+  	width: 100%;height: 790px;margin-left: 0px;margin-top: 700px;padding-left: 0px;
+
+  }
+  }
+
+#h21{
+	margin-left: 40%;padding-top: 5%;
+} 
+@media only screen and (max-width: 320px) {
+  #h21{
+	margin-left: 0%;padding-top: 5%;
+
+  }
+  }
+#user1{
+	font-size:36px;margin-left:15%;padding-top: 2%;
+}
+@media only screen and (max-width: 320px) {
+  #user1{
+	font-size:36px;margin-left:-20px;padding-top: 4%;
+
+  }
+  }
+
+#envalope{
+	font-size:24px;   margin-left:20%;padding-top: 3%;
+}
+@media only screen and (max-width: 320px) {
+  #envalope{
+	font-size:20px;color:black;margin-left:-20px;
+
+  }
+  }
+#ph1{
+	 font-size:26px; margin-left:20%;padding-top: 2%;
+}
+@media only screen and (max-width: 320px) {
+  #ph1{
+	font-size:30px;color:white;margin-left:-20px;
+
+  }
+  }
+
+#ph2{
+	 font-size:26px; margin-left:20%;padding-top: 2%;
+}
+@media only screen and (max-width: 320px) {
+  #ph2{
+	font-size:30px;color:white;margin-left:-20px;
+
+  }
+  }
+#address{font-size:26px;margin-left:20%;padding-top: 2%;}
+@media only screen and (max-width: 320px) {
+  #address{
+	font-size:40px;color:greenyellow;padding-left: 20%;padding-top: 5%;margin-left:px;
+
+  }
+  }
+
+#divi{
+	padding-left: 30%;margin-top: 5%;
+	width: px; height: 350px;background-color: yellow;
+}
+	
+@media only screen and (max-width: 768px) {
+  #frame{
+  	width: 350px;height: 250px;margin-left:-100px;
+
+  }
+  }
+
+  #h22{
+  	margin-left:30%;font-weight: bolder;
+  }
+@media only screen and (max-width: 320px) {
+  #h22{
+  	width: 100%;height: 200px;padding-left: 0px;margin-left: 20px;
+
+  }
+  }
+
+  #frame{
+  	 width: 50%; height:450px;margin-left: 290px;
+  }
+@media only screen and (max-width: 320px) {
+  #frame{
+margin-top: -30%;margin-left: -10%;width: 300px;height: 200px;
+  }
+  }
+
+
